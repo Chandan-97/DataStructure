@@ -50,7 +50,7 @@ int nonDecrease(int input1)
 		return 55;
 
 	ll dp[n][10];
-#define sz 10
+
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = 0; j < sz; j++)
