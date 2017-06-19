@@ -41,9 +41,9 @@ void quick(vector<int> &v, int start, int end){
     int pivot = v[start];
 
     while(start < end){
-        while(v[start] <= pivot)
+        while(v[start] <= pivot and start <= end)
             start++;
-        while(v[end] > pivot)
+        while(v[end] > pivot and end >= 0)
             end--;
         if(start < end)
             swap(v[start], v[end]);
