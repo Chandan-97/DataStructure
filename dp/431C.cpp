@@ -3,6 +3,9 @@
 // 431C
 
 /*  
+  Problem : find number of ways of creating number i from numbers 1, 2, ... k, having atleast one number >= d;
+
+
   number i can be formed by i-1, i-2, i-3, ... i-k by adding 1, 2, 3, ..., k respectively
 
   if(number i is formed by something >= d){
